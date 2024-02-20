@@ -1,0 +1,74 @@
+@import 'colors.scss';
+@import 'custom.scss';
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body,
+label {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mobile {
+  width: 80%;
+}
+
+.tablet {
+  width: 80%;
+}
+
+.desktop {
+  width: 50%;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.btn-action {
+  background-color: $btn-bg-color;
+  color: $btn-text-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  gap: 10px;
+  min-height: 200px;
+  height: 100%;
+
+  i {
+    font-size: 18px;
+  }
+
+  input {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    position: absolute;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

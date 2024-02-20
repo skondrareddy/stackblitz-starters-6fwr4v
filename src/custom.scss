@@ -1,0 +1,13 @@
+.mat-mdc-button-base {
+  background-color: $btn-mat-bg-color !important;
+  color: $white-text-color !important;
+}
+
+.mat-mdc-button-base:disabled {
+  opacity: 0.5 !important;
+}
+
+.mat-toolbar {
+  background: $cover-bg-color !important;
+  color: $btn-mat-bg-color !important;
+}
